@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 3px 4px 4px 2px rgb(218 218 218 / 17%);
+    & h1 {
+        padding: 20px;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 20px);
+    background-color: #c70ab6;
+    & h2 {
+        background-color: black;
+        color: white;
+        padding: 20px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        & span {
+            padding: 10px;
+            border-radius: 10px;
+        }
+    }
+    & button {
+        padding: 8px 10px;
+        background-image: linear-gradient(rgb(85 0 255), #3b1abd);
+        color: white;
+        border: none;
+        border-radius: 10px;
+    }
+}
